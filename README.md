@@ -83,10 +83,10 @@ This enables **offline inference** and faster loading time for repeated use.
 
 ```bash
 git clone https://github.com/ChiefAj23/AcademicTextSummarizer.git
-cd text-summarizer-app
+cd AcademicTextSummarizer
 ```
 
-### 2. Set up virtual environment (recommended)
+### 2. Set up the virtual environment (recommended)
 
 ```bash
 python -m venv .venv
