@@ -82,7 +82,7 @@ This enables **offline inference** and faster loading time for repeated use.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/text-summarizer-app.git
+git clone https://github.com/ChiefAj23/AcademicTextSummarizer.git
 cd text-summarizer-app
 ```
 
@@ -110,19 +110,6 @@ python app.py
 ## 📸 UI Preview
 
 > Coming soon...
-
----
-
-## 📂 File Structure
-
-```
-📁 text-summarizer-app/
-│
-├— app.py                 # Gradio app interface
-├— requirements.txt       # Python dependencies
-├— README.md              # Project documentation
-└— models/                # Local model snapshots (optional)
-```
 
 ---
 
