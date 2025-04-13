@@ -23,6 +23,35 @@ As a graduate researcher, I must regularly read and summarize voluminous resea
 
 ---
 
+## 🧠 Model Information
+
+This app uses the `sshleifer/distilbart-cnn-12-6` model from Hugging Face, which is a distilled version of Facebook's BART model fine-tuned on the CNN/DailyMail dataset for summarization tasks.
+
+### 📥 Downloading the Model Manually (Optional)
+If you prefer not to download the model at runtime, you can manually download it and use it locally.
+
+#### Step 1: Download the model
+```bash
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+
+model_name = "sshleifer/distilbart-cnn-12-6"
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+model.save_pretrained("./models/distilbart-cnn-12-6")
+tokenizer.save_pretrained("./models/distilbart-cnn-12-6")
+```
+
+#### Step 2: Update app code to use local path
+```python
+model_path = "./models/distilbart-cnn-12-6"
+text_summary = pipeline("summarization", model=model_path, tokenizer=model_path)
+```
+
+This enables **offline inference** and faster loading time for repeated use.
+
+---
+
 ## 💠 Tech Stack
 
 | Component     | Description                                       |
@@ -33,6 +62,20 @@ As a graduate researcher, I must regularly read and summarize voluminous resea
 | `PyTorch`     | Deep learning backend for transformer inference   |
 
 ---
+
+## 📂 File Structure
+
+```
+📁 text-summarizer-app/
+│
+├── app.py                 # Gradio app interface
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+└── models/                # Local model snapshots (optional)
+```
+
+---
+
 
 ## 📦 Installation
 
@@ -94,5 +137,4 @@ Abhijeet Solanki
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 
