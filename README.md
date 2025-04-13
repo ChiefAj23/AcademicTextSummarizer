@@ -86,7 +86,8 @@ python app.py
 ## ✍️ Author
 
 **Abhijeet Solanki**
-
+If you enjoyed this or have suggestions, feel free to reach out!
+Abhijeet Solanki
 
 ---
 
