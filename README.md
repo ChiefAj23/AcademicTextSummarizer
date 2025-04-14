@@ -1,10 +1,19 @@
 # 📚 Academic Text Summarizer
 A lightweight, AI-powered web application that generates concise and coherent summaries of academic texts, research papers, articles, and technical documentation. Built using Hugging Face Transformers and Gradio, this tool is designed to assist graduate students, researchers, and knowledge workers by simplifying the summarization process.
 
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Transformers](https://img.shields.io/badge/🤗-Transformers-orange)
 ![Gradio](https://img.shields.io/badge/Gradio-UI-lightgrey?logo=gradio)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+---
+
+## Live Demo
+
+Try out the live version of the app here:
+
+[**🔗 Academic Text Summarizer Live Demo**](https://huggingface.co/spaces/asolanki23/AcademicTextSummarizer)
 
 ---
 
