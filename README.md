@@ -109,7 +109,7 @@ python app.py
 
 ## 📸 UI Preview
 
-> Coming soon...
+<img width="979" alt="Screenshot 2025-04-14 at 11 18 53 AM" src="https://github.com/user-attachments/assets/ac21fbe7-56d6-4c92-9a5d-1c8e9d3a4eec" />
 
 ---
 
