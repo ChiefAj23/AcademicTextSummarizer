@@ -5,15 +5,6 @@ A lightweight, AI-powered web application that generates concise and coherent su
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Transformers](https://img.shields.io/badge/🤗-Transformers-orange)
 ![Gradio](https://img.shields.io/badge/Gradio-UI-lightgrey?logo=gradio)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-
----
-
-## Live Demo
-
-Try out the live version of the app here:
-
-[**🔗 Academic Text Summarizer Live Demo**](https://huggingface.co/spaces/asolanki23/AcademicTextSummarizer)
 
 ---
 
@@ -75,12 +66,13 @@ This enables **offline inference** and faster loading time for repeated use.
 ## 📂 File Structure
 
 ```
-📁 text-summarizer-app/
+📁 AcademicTextSummarizer/
 │
-├── app.py                 # Gradio app interface
+├── App/
+│   └── TextSummary.py     # Gradio app interface
 ├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-└── models/                # Local model snapshots (optional)
+├── LICENSE
+└── README.md              # Project documentation
 ```
 
 ---
@@ -111,7 +103,7 @@ pip install -r requirements.txt
 ### 4. Run the app
 
 ```bash
-python app.py
+python App/TextSummary.py
 ```
 
 ---
@@ -126,7 +118,6 @@ python app.py
 
 **Abhijeet Solanki**
 If you enjoyed this or have suggestions, feel free to reach out!
-Abhijeet Solanki
 
 ---
 
